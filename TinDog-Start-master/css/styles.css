@@ -1,0 +1,212 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat';
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+}
+
+#title{
+
+    
+    padding-bottom: 6rem;
+    text-align: left;
+}
+
+.container{
+    padding: 3% 10%;
+}
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+
+
+/* navigation bar */
+
+.container-fluid{
+    padding-left:0px ;
+}
+
+.container-fluid{
+    padding-bottom: 4.5rem;
+    /* margin-bottom: 10%; */
+
+}
+
+.navbar-brand{
+
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem ;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0px 16px;
+    
+}
+
+.nav-link{
+    font-weight: 1.2rem;
+    font-family: Montserrat;
+    font-weight: 400;
+}
+
+
+.right-head{
+    padding-left: 50px;
+    position: relative;   
+}
+
+
+/* header text */
+
+
+
+
+/* download buttons */
+.Download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute ;
+    margin-left: 0.5rem;
+}
+
+
+   
+
+/* Features */
+#features{
+    padding: 7% 7%;
+    position: relative;
+    background-color: #fff;
+    /* z-index: 1; */
+}
+
+
+
+.fa-solid{
+    font-size: 400%;
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.fa-solid:hover{
+    color: #ff4c68;
+}
+
+.feature-text{
+    font-weight: 700;
+    font-size: 1.5rem; 
+}
+ 
+
+
+/* testimonial */
+#testimonials {
+    background-color: #ef8172;
+   
+}
+
+.testimonial-text{
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.carousel-item > img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 1.5rem;
+}
+
+/* press */
+#press{
+    background-color: #ef8172;
+    padding-bottom:3% ;
+}
+
+#press>img{
+    width: 15%;
+    margin: 0 1.5rem 3.1rem;
+}
+
+
+
+/* Pricing */
+#pricing{
+    padding: 5%;
+}
+
+.pricing-head{
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+.pricing-plan{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.small-box{
+    padding-bottom: 2.5rem;
+}
+
+
+
+/* Call to Action  */
+#cta{
+    padding: 7% 15%;
+}
+
+
+/* Footer */
+
+#footer{
+    margin-top: 3%;
+}
+
+.social-icon{
+    padding: 0 10px 20px;
+}
+
+@media (max-width : 1028px) {
+    
+    #title{
+    text-align : center;
+    }
+
+    .title-image {
+        position:static ;
+        transform: rotate(0);
+    }
+
+}
